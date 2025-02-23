@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: #2d7d32;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .top-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .nav-bar {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            justify-content: space-between;
+            border-bottom: 2px solid #ccc;
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2d7d32;
+        }
+        .category {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+        .search-box {
+            padding: 5px;
+            border: 1px solid #2d7d32;
+            width: 250px;
+        }
+        .login-btn {
+            background-color: #2d7d32;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+        .bottom-menu {
+            background-color: #1a1a1a;
+            color: white;
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            gap: 15px;
+        }
+        .bottom-menu a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Compilers</a>
+            <a href="#">Jobs</a>
+            <a href="#">Whiteboard</a>
+            <a href="#">Tools</a>
+            <a href="#">Articles</a>
+        </div>
+        <div>
+            <a href="#">🌙</a>
+            <a href="#">📘</a>
+            <a href="#">📷</a>
+            <a href="#">▶</a>
+            <a href="#">🔗</a>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <div class="logo">TutorialsPoint</div>
+        <div class="category">📂 Category</div>
+        <input type="text" class="search-box" placeholder="Search tutorials, courses...">
+        <div>
+            <span>Library</span>
+            <span>Courses</span>
+            <span>Certifications</span>
+        </div>
+        <button class="login-btn">Login</button>
+    </div>
+
+    <div class="bottom-menu">
+        <a href="#">SQL</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+        <a href="#">Python</a>
+        <a href="#">Java</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">PHP</a>
+        <a href="#">Scala</a>
+        <a href="#">C#</a>
+        <a href="#">Tailwind CSS</a>
+        <a href="#">Node.js</a>
+        <a href="#">MySQL</a>
+        <a href="#">MongoDB</a>
+    </div>
+
+</body>
+</html>
